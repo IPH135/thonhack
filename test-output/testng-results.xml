@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17894" started-at="2018-01-07T12:50:40Z" finished-at="2018-01-07T12:50:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17894" started-at="2018-01-07T12:50:40Z" finished-at="2018-01-07T12:50:58Z">
+      <class name="in.com.selenium.pages.createLoanPage">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:in.com.selenium.pages.createLoanPage@53b32d7]" name="startReport" is-config="true" duration-ms="272" started-at="2018-01-07T18:20:40Z" finished-at="2018-01-07T18:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="CreateLoan()[pri:1, instance:in.com.selenium.pages.createLoanPage@53b32d7]" name="CreateLoan" duration-ms="7165" started-at="2018-01-07T18:20:41Z" finished-at="2018-01-07T18:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLoan -->
+        <test-method status="PASS" signature="trackLoan()[pri:2, instance:in.com.selenium.pages.createLoanPage@53b32d7]" name="trackLoan" duration-ms="3954" started-at="2018-01-07T18:20:48Z" finished-at="2018-01-07T18:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackLoan -->
+        <test-method status="PASS" signature="updateBrokerDetails()[pri:3, instance:in.com.selenium.pages.createLoanPage@53b32d7]" name="updateBrokerDetails" duration-ms="5384" started-at="2018-01-07T18:20:52Z" finished-at="2018-01-07T18:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBrokerDetails -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:in.com.selenium.pages.createLoanPage@53b32d7]" name="Close" is-config="true" duration-ms="1093" started-at="2018-01-07T18:20:57Z" finished-at="2018-01-07T18:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method status="PASS" signature="getResult()[pri:0, instance:in.com.selenium.pages.createLoanPage@53b32d7]" name="getResult" is-config="true" duration-ms="433" started-at="2018-01-07T18:20:58Z" finished-at="2018-01-07T18:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- in.com.selenium.pages.createLoanPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
