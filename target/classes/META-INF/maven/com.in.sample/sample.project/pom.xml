@@ -1,0 +1,163 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.in.sample</groupId>
+  <artifactId>sample.project</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>sample.project</name>
+  <url>http://maven.apache.org</url>
+  <description>sample project</description>
+  
+  
+  <properties>
+            <project.build.SourceInfocode>UFT-8</project.build.SourceInfocode>
+  </properties>
+  
+ <build>
+ <plugins>
+ <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.3</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+          <fork>true</fork>
+          <executable>C:\Program Files\Java\jdk1.8.0_101\bin\javac</executable>
+        </configuration>
+      </plugin>
+      
+      <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.18.1</version>
+    <configuration>
+    <forkCount>o</forkCount>
+    <suiteXmlFiles>
+    <suiteXmlFile>testng.xml</suiteXmlFile>
+    </suiteXmlFiles>
+    </configuration>
+      
+    </plugin>
+   </plugins>
+ </build>
+  
+<dependencies>
+
+  
+  <dependency>
+  <groupId>org.apache.maven.plugins</groupId> 
+  <artifactId>maven-compiler-plugin</artifactId> 
+  <version>3.7.0</version> 
+   </dependency>
+ <dependency>
+  <groupId>org.apache.maven.plugins</groupId> 
+  <artifactId>maven-surefire-plugin</artifactId> 
+  <version>2.18.1</version> 
+  </dependency>
+ <dependency>
+  <groupId>junit</groupId> 
+  <artifactId>junit</artifactId> 
+  <version>3.8.1</version> 
+  <scope>test</scope> 
+  </dependency>
+  <dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.0</version>
+</dependency>
+  
+ <dependency>
+  <groupId>org.seleniumhq.selenium</groupId> 
+  <artifactId>selenium-java</artifactId> 
+  <version>2.53.1</version> 
+  </dependency>
+  
+   <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.9.9</version>
+    <scope>test</scope>
+</dependency>
+ 
+ <dependency>
+  <groupId>com.beust</groupId> 
+  <artifactId>jcommander</artifactId> 
+  <version>1.48</version> 
+  </dependency>
+
+ <dependency>
+  <groupId>org.seleniumhq.selenium</groupId> 
+  <artifactId>selenium-support</artifactId> 
+  <version>2.53.1</version> 
+  </dependency>
+<dependency>
+  <groupId>org.seleniumhq.selenium</groupId> 
+  <artifactId>selenium-edge-driver</artifactId> 
+  <version>2.53.1</version> 
+  </dependency>
+ <dependency>
+  <groupId>org.apache.commons</groupId> 
+  <artifactId>commons-exec</artifactId> 
+  <version>1.3</version> 
+  </dependency>
+ <dependency>
+  <groupId>commons-io</groupId> 
+  <artifactId>commons-io</artifactId> 
+  <version>2.4</version> 
+  </dependency>
+ <dependency>
+  <groupId>org.seleniumhq.selenium</groupId> 
+  <artifactId>selenium-remote-driver</artifactId> 
+  <version>2.53.1</version> 
+  </dependency>
+ <dependency>
+  <groupId>com.googlecode.json-simple</groupId> 
+  <artifactId>json-simple</artifactId> 
+  <version>1.1</version> 
+  </dependency>
+
+    <dependency>
+    <groupId>com.jayway.restassured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>2.9.0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.0.0</version>
+    <scope>test</scope>
+</dependency>
+   
+ <dependency>
+  <groupId>org.apache.poi</groupId> 
+  <artifactId>poi</artifactId> 
+  <version>3.9</version> 
+  </dependency>
+ <dependency>
+  <groupId>org.apache.poi</groupId> 
+  <artifactId>poi-ooxml</artifactId> 
+  <version>3.7</version> 
+  </dependency>
+ <dependency>
+  <groupId>org.apache.poi</groupId> 
+  <artifactId>poi-ooxml-schemas</artifactId> 
+  <version>3.7</version> 
+  </dependency>
+ <dependency>
+  <groupId>org.apache.xmlbeans</groupId> 
+  <artifactId>xmlbeans</artifactId> 
+  <version>2.3.0</version> 
+  </dependency>
+ <dependency>
+  <groupId>commons-codec</groupId> 
+  <artifactId>commons-codec</artifactId> 
+  <version>1.5</version> 
+  </dependency>
+ <dependency>
+  <groupId>dom4j</groupId> 
+  <artifactId>dom4j</artifactId> 
+  <version>1.5</version> 
+  </dependency>
+</dependencies>
+</project>
