@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.in.events.googleSearchEvent">
+      <class name="com.in.TestScript.googleSearchTest">
         <methods>
           <include name="flushReport"/>
           <include name="setReportPath"/>
-          <include name="doOperation"/>
+          <include name="searchGoogle"/>
           <include name="getResult"/>
         </methods>
-      </class> <!-- com.in.events.googleSearchEvent -->
+      </class> <!-- com.in.TestScript.googleSearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -10,8 +10,8 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class googleSearchEvent extends Util{
 	
-	@Test
-	public void doOperation(){
+
+	public   void doOperation(){
 		
 		test=report.startTest("Google Opned");
 		Util.openBrowser();
